@@ -8,5 +8,5 @@ export default function healthStatus(valueHealth) {
   if (valueHealth < 15) {
     return 'critical';
   }
-  return 'error';
+  return 0;
 }
